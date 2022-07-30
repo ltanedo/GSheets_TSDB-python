@@ -14,12 +14,12 @@ Making Google Sheets into a free Time-Series database! Built on top of nithinmur
 
 # Functions
 > Note: function names abstract Google Sheets as a database with tables!
-- Opening a Database
+- Opening a Database (creates one if doesn't exist)
 ```
 db1 = SheetsDB(db_name = "New",folder_name = "Warehouse")
 ```
 
-- Opening a table
+- Opening a table (creates one if doesn't exist)
 ```
 table1 = db1.get_table(table_name = "Table")
 ```
